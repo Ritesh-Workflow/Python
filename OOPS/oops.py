@@ -133,18 +133,100 @@
 
 
 # A food delivery app wants to calculate the final bill amount of an order
-class FoodOrder:
-    coustomer_name="Aman"
-    food_item="Burger"
-    quantity=3
-    price_per_item=120
-    def calculate(self):
-        print("Coustomer Name : ",self.coustomer_name)
-        print("Food Item : ",self.food_item)
-        print("TOtal Bill : ",self.quantity*self.price_per_item)
-a=FoodOrder()
-a.calculate()
+# class FoodOrder:
+#     coustomer_name="Aman"
+#     food_item="Burger"
+#     quantity=3
+#     price_per_item=120
+#     def calculate(self):
+#         print("Coustomer Name : ",self.coustomer_name)
+#         print("Food Item : ",self.food_item)
+#         print("TOtal Bill : ",self.quantity*self.price_per_item)
+# a=FoodOrder()
+# a.calculate()
+
+
+
+# Student attendance tracker 
+# class attendance:
+#     student_name="Aman"
+#     total_classes=50
+#     attend_classes=42
+#     percentage=(attend_classes/total_classes)*100
+#     def calculate(self,student_name):
+#         print("Student Name :",student_name)
+#         print("Attendance Percentage :",self.percentage)
+#         print("Eligible for exam" if self.percentage>75 else "Not Eligible")
+
+# a=attendance()
+# a.calculate("Ritesh")
 
 
 
 
+
+class student:
+    name="Gaurav"
+    course="Java"
+
+    def display(self,name,course):
+        print("Name -->>",name)
+        print("Course -->>",course)
+
+s1=student()
+s2=student()
+s1.display("Ritesh","Python")
+s2.display("Ashutosh","Flutter")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class Employee:
+
+#     companyName = "Techno Amaze"
+
+#     def displayData(self): # instance method
+#         self.username = "Ashutosh"
+#         print("Within display data")
+#         print(f"Instance variable : {self.username}")
+#         print(f"Instance variable : {Employee.username}")
+
+#     @classmethod # decorator
+#     def classMethod(self): # class method
+#         print("Class method , ", self.companyName)
+#         print("Class method , ", Employee.companyName)
+
+#     def instanceMethod(self):
+#         print("Class method , ", self.username)
+#         print("Class method , ", self.companyName)
+#         print("Class method , ", Employee.username)
+#         print("Class method , ", Employee.companyName)
+
+#     @staticmethod
+#     def staticMethod(value):
+#         print("Within static method. - username ", value)
+#         print("Within static method. - companyname", Employee.companyName)
+
+
+# e1 = Employee()
+
+# # e1.displayData()
+# print("Class Variable : ", e1.companyName)
+# e1.classMethod()
+# # e1.instanceMethod()
+# e1.staticMethod(77)
+
+# print(e1)
+# print(e1.instanceMethod)
+# print(e1.classMethod)
+# print(e1.staticMethod)
