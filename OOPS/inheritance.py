@@ -130,45 +130,77 @@
         
 
 
-class Employee:
+# class Employee:
 
-    def __init__(self,name,salary):
-        self.name = name
-        self.salary = salary
-
-
-class Manager(Employee):
-
-    def __init__(self, name, salary , department): # constructor for manager
-        super().__init__(name, salary) # calling parent constructor
-        self.department = department
-        self.manager = "Manager"
-
-    def displayData(self):
-        print("Employee name : ", self.name)
-        print("Employee Salary : ", self.salary)
-        print("Employee Department : ", self.department)
-
-class Staff(Employee):
-    def __init__(self, name, salary, department):
-        super().__init__(name, salary)
-        self.department = department
-        self.staff = "staff"
-
-    def displayData(self):
-        print("Employee name : ", self.name)
-        print("Employee Salary : ", self.salary)
-        print("Employee Department : ", self.department)
-        print("----->",self.name)
+#     def __init__(self,name,salary):
+#         self.name = name
+#         self.salary = salary
 
 
-staff = Staff("Ashish Staff" , 10000 , "Shop Keeper")
-manager = Manager("Sandeep Manager" , 15000 , "Sales Department")
+# class Manager(Employee):
 
-staff.staff
-manager.manager
-staff.name
-manager.name
+#     def __init__(self, name, salary , department): # constructor for manager
+#         super().__init__(name, salary) # calling parent constructor
+#         self.department = department
+#         self.manager = "Manager"
 
-staff.displayData()
-manager.displayData()
+#     def displayData(self):
+#         print("Employee name : ", self.name)
+#         print("Employee Salary : ", self.salary)
+#         print("Employee Department : ", self.department)
+
+# class Staff(Employee):
+#     def __init__(self, name, salary, department):
+#         super().__init__(name, salary)
+#         self.department = department
+#         self.staff = "staff"
+
+#     def displayData(self):
+#         print("Employee name : ", self.name)
+#         print("Employee Salary : ", self.salary)
+#         print("Employee Department : ", self.department)
+#         print("----->",self.name)
+
+
+# staff = Staff("Ashish Staff" , 10000 , "Shop Keeper")
+# manager = Manager("Sandeep Manager" , 15000 , "Sales Department")
+
+# staff.staff
+# manager.manager
+# staff.name
+# manager.name
+
+# staff.displayData()
+# manager.displayData()
+
+
+
+
+# class Vehicle:
+#     def __init__(self):
+#         self.company_name="BMW"
+
+#     def display(self):
+#         print("Company Name :",self.company_name)
+
+
+# class Car(Vehicle):
+#     def __init__(self):
+#         self.company_name="AUDI"
+#         self.car_model="A6"
+#         # super().__init__()
+
+#     def display(self):
+#         print("Car Constructor ")
+#         print("car Company :",self.company_name)
+#         print("Car Model :",self.car_model)
+
+
+# c1=Car()
+# c1.display()
+
+
+
+
+
+

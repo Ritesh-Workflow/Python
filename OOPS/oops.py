@@ -165,18 +165,18 @@
 
 
 
-class student:
-    name="Gaurav"
-    course="Java"
+# class student:
+#     name="Gaurav"
+#     course="Java"
 
-    def display(self,name,course):
-        print("Name -->>",name)
-        print("Course -->>",course)
+#     def display(self,name,course):
+#         print("Name -->>",name)
+#         print("Course -->>",course)
 
-s1=student()
-s2=student()
-s1.display("Ritesh","Python")
-s2.display("Ashutosh","Flutter")
+# s1=student()
+# s2=student()
+# s1.display("Ritesh","Python")
+# s2.display("Ashutosh","Flutter")
 
 
 

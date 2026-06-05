@@ -90,3 +90,5 @@ class Enrollment(Student):
         
 s1=Enrollment("Priya","Flutter","6 Months")
 s1.display()
+
+

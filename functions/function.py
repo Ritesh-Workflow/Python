@@ -1,22 +1,23 @@
 # # Mobile Recharge Calculator
-# # A recharge shop wants to calculate total recharge amount.
-# # Given Data:
-# # recharge1 = 199
-# # recharge2 = 299
-# # recharge3 = 149
-# # Perform the following:
-# # Create a function with parameters.
-# # Accept recharge amounts.
-# # Calculate total amount.
-# # Return total amount.
-# # Print returned value outside function.
+# A recharge shop wants to calculate total recharge amount.
+# Given Data:
+# recharge1 = 199
+# recharge2 = 299
+# recharge3 = 149
+# Perform the following:
+# Create a function with parameters.
+# Accept recharge amounts.
+# Calculate total amount.
+# Return total amount.
+# Print returned value outside function.
 
-# def recharge_calculator(rechareg1,recharge2,recharge3):
-#     total_Amt=rechareg1+recharge2+recharge3
-#     return total_Amt
-# recharge=recharge_calculator(199,299,149)
-# print("Total Amount :", recharge)
+def recharge_calculator(rechareg1,recharge2,recharge3):
+    total_Amt=rechareg1+recharge2+recharge3
+    print("Its recharge calculator function")
+    print(total_Amt)
 
+recharge=recharge_calculator(130,320,399)
+print(recharge)
 
 
 # #Employee Attendance System
@@ -129,11 +130,11 @@
     
 # patient_Info(name="Amit",age=25,room=204)
 
-def outerfun():
-    print("Hello")
-    def inner():
-        print("Bye")
-        return "inner"
-    return inner()
-outerfun()
+# def outerfun():
+#     print("Hello")
+#     def inner():
+#         print("Bye")
+#         return "inner"
+#     return inner()
+# outerfun()
 

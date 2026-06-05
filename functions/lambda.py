@@ -1,10 +1,10 @@
 
-# x=5
-# square=lambda x:x*x
-# print(square(9))
+x=5
+square=lambda x:x*
+print(square(9))
 
 # x=5
-a=lambda x: "Even" if (x%2==0) else"Odd"
+# a=lambda x: "Even" if (x%2==0) else"Odd"
 # print(a)
 
 # evenOdd =lambda x: "Even" if (x%2==0) else"Odd"
