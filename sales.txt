@@ -1,0 +1,5 @@
+Samsung,5
+Vivo,3
+Oppo,4
+Realme,6
+Motorola,1

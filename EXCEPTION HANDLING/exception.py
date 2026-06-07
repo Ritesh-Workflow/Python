@@ -96,16 +96,101 @@
 
 # Q.2 Reading Room Seat Lookup
 
+# try :
+#    seats=[101,102,103,104,105]
+#    position=int(input("Enter a Seat Position : "))
+#    print(f"Seat Number {seats[position]}")
+
+# except ValueError:
+#    print("You entered a text")
+
+# except IndexError :
+#    print(f"Seat Are not Available at {position} ")
+
+# finally :
+#    print("Program Succesfully Executed")
+
+
+
+
+   # Q.3 Student record search
+
+
+# student={
+#       "name" : "Rahul",
+#       "course" : "Python",
+#       "fees" : 12000
+#         }
+
+# try :
+#       key=input("Enter a Key :")
+#       print(student[key])
+
+# except KeyError :
+#       print("Wrong Key")
+
+
+# Q.4 Employee Bonus Calculator
+
+
+# try :
+#       salary=int(input("Enter a Salary :"))
+#       bonus=int(input("Enter a Bonus Percentage :"))
+
+#       bonus=(salary/100)*bonus
+#       print(bonus+salary)
+
+# except ValueError:
+#       print("You Entered Text")
+
+# except Exception as e:
+#       print(" Error :",e)
+
+
+
+# Q.5 Enternship Eligibility Checker:
+
+# class InvalidAgeException(Exception):
+#       pass
+# try :
+#       age=int(input("Enter a Age :"))
+
+#       if age<18:
+#             print("Under 18 years are not allowed")
+#             raise InvalidAgeException("Age must be 18 year above")
+#       else :
+#             print(f"{age} Years old Are allowed")
+
+# except ValueError:
+#       print("Wrong Input")
+
+# except InvalidAgeException as e:
+#       print("Value Error :",e)
+
+
+# Bonus Question
+# Student Managemet System
+
 try :
-   seats=[101,102,103,104,105]
-   position=int(input("Enter a Seat Position : "))
-   print(f"Seat Number {seats[position]}")
+      student=["Amit","Rahul","Sneha"]
+      student_info={
+            "Amit":85,
+            "Rahul":92,
+            "Sneha":78
+      }
 
+      index=int(input("Enter a Student Index :"))
+      key=student[index]
+      print(student_info[key])
+
+except IndexError:
+      print("Wrong Index")
+      
 except ValueError:
-   print("You entered a text")
+      print("You entered text instead of index")
 
-except IndexError :
-   print(f"Seat Are not Available at {position} ")
+except KeyError:
+      print("Wrong Key")
 
-finally :
-   print("Program Succesfully Executed")
+finally:
+      print("Program Ended")

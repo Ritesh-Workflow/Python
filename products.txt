@@ -1,0 +1,4 @@
+P101,Laptop,10
+P102,Mouse,25
+P103,Keyboard,15
+P104,Monitor,8
